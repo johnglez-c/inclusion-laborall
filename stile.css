@@ -40,11 +40,10 @@ nav ul li a {
 }
 
 #home {
-    background: url('https://images.pexels.com/photos/4063789/pexels-photo-4063789.jpeg') no-repeat center center/cover;
+    background: url('https://via.placeholder.com/1920x800') no-repeat center center/cover;
     color: #fff;
     text-align: center;
     padding: 5rem 0;
-    height: 100vh; /* Asegúrate de que esta sección ocupe toda la altura de la pantalla */
 }
 
 #home h1 {
@@ -71,16 +70,25 @@ section {
     text-align: center;
 }
 
+.section-image {
+    width: 100%;
+    max-width: 800px;
+    margin: 1rem 0;
+}
+
 h2 {
     margin-bottom: 1.5rem;
 }
 
-section img {
-    max-width: 90%; /* Cambia a 90% para que se ajuste mejor */
-    height: auto; /* Mantiene la relación de aspecto */
-    margin: 1.5rem auto; /* Agrega espacio y centra la imagen */
-    display: block; /* Asegura que la imagen sea un bloque para centrar */
-    border-radius: 8px; /* Redondea las esquinas de las imágenes */
+.testimonials {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.testimonial-image {
+    margin: 1rem;
 }
 
 footer {
@@ -121,5 +129,3 @@ form button {
 form button:hover {
     background-color: #218838;
 }
-
-
