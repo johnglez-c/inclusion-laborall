@@ -76,9 +76,10 @@ h2 {
 }
 
 section img {
-    max-width: 100%; /* Limit the image width to the container */
-    height: auto;    /* Maintain aspect ratio */
-    margin: 1.5rem 0; /* Add some space around images */
+    max-width: 80%; /* Limita el ancho máximo de las imágenes al 80% del contenedor */
+    height: auto;    /* Mantiene la relación de aspecto de la imagen */
+    margin: 1.5rem auto; /* Agrega espacio y centra la imagen */
+    display: block; /* Asegura que la imagen sea un bloque para centrar */
 }
 
 footer {
@@ -114,10 +115,6 @@ form button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-}
-
-form button:hover {
-    background-color: #218838;
 }
 
 form button:hover {
