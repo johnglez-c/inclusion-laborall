@@ -44,7 +44,7 @@ nav ul li a {
     color: #fff;
     text-align: center;
     padding: 5rem 0;
-    height: 100vh; /* Ensure this section occupies the full height of the screen */
+    height: 100vh; /* Asegúrate de que esta sección ocupe toda la altura de la pantalla */
 }
 
 #home h1 {
@@ -76,10 +76,11 @@ h2 {
 }
 
 section img {
-    max-width: 80%; /* Limita el ancho máximo de las imágenes al 80% del contenedor */
-    height: auto;    /* Mantiene la relación de aspecto de la imagen */
+    max-width: 90%; /* Cambia a 90% para que se ajuste mejor */
+    height: auto; /* Mantiene la relación de aspecto */
     margin: 1.5rem auto; /* Agrega espacio y centra la imagen */
     display: block; /* Asegura que la imagen sea un bloque para centrar */
+    border-radius: 8px; /* Redondea las esquinas de las imágenes */
 }
 
 footer {
@@ -120,4 +121,5 @@ form button {
 form button:hover {
     background-color: #218838;
 }
+
 
